@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bài tập 4</title>
+</head>
+
+<body>
+  <h1>
+    Bài tập 4:Quan sát một số URL trên mạng
+  </h1>
+  <ul>
+    <li><div>Mở trình duyệt, nhập vào thanh địa chỉ một URL bất kỳ, ví dụ:</div>
+ <a href="https://en.wikipedia.org/">https://en.wikipedia.org/</a>
+<img src="https://cdn.glitch.global/ef653fab-2716-4f09-887e-1ca425c48a52/87d5141f-e86e-46fb-be0d-907e406a85b7.image.png?v=1667025894431"
+      alt="Bài tập 4" width="500" heigh="500"></li>
+    <li><div>Trình duyệt sẽ đổi tên miền en.wikipedia.org sang địa chỉ IP, kết nối tới máy server dựa trên IP và lấy về trang web. Bạn vào cửa sổ cmd, gõ lệnh: ping en.wikipedia.org, ghi lại địa chỉ IP máy server của wikipedia.
+    </div>
+    <img src="https://cdn.glitch.global/ef653fab-2716-4f09-887e-1ca425c48a52/8fb4667f-bc4d-4bb4-b792-84d75304355d.image.png?v=1667026363873"
+         alt="Bài tập 4" width="500" heigh="500"></li>
+    <li><div>Server sẽ gửi trang mặc định về cho trình duyệt, ví dụ <a href ="https://en.wikipedia.org/wiki/Main_Page">https://en.wikipedia.org/wiki/Main_Page</a>
+      </div>
+      <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/6d1d570c-814b-4e71-a87b-09558393c101.image.png?v=1667628992447"
+           alt="Bài tập 4" width="500" heigh="500"></li>
+    <li><div>
+      Di chuyển chuột vào các liên kết (ít nhất 5 liên kết) có trên trang web, quan sát trên thanh trạng thái (status bar) của trình duyệt (thanh ngang phía dưới của cửa sổ trình duyệt), ghi lại các URL mà bạn quan sát được.
+      </div>
+       <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/f5029cc9-a72a-4cc7-a9c8-c0b3f4c6865f.image.png?v=1667629229601"
+           alt="Bài tập 4" width="500" heigh="500">
+       <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/495f3b2d-d3d7-4a0a-a56c-faaa0a77c4c1.image.png?v=1667629344084"
+           alt="Bài tập 4" width="500" heigh="500">
+       <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/9e8dd3fa-e790-4525-afb8-d7f8782daa2f.image.png?v=1667629375005"
+           alt="Bài tập 4" width="500" heigh="500">
+       <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/260f2745-495b-4511-acd6-27989fbe870a.image.png?v=1667629383754"
+           alt="Bài tập 4" width="500" heigh="500">
+       <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/cfc31b09-e5b1-4f75-8810-340d5b013621.image.png?v=1667629553939"
+           alt="Bài tập 4" width="500" heigh="500">
+    </li>
+    <li><div>
+      Thêm thông tin cổng và URL để quan sát kết quả, ví dụ nếu giao thức là https thì thêm cổng 443, giao thức http thì thêm cổng 80, ví dụ: <a href="https://en.wikipedia.org:443/wiki/Main_Page">https://en.wikipedia.org:443/wiki/Main_Page</a>. Bạn sẽ thấy trang web vẫn hiển thị bình thường (không bị lỗi).
+      </div>
+     <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/e923b6b0-808d-4d96-8fdd-4d877d1ed9c8.image.png?v=1667629766602"
+           alt="Bài tập 4" width="500" heigh="500"></li>
+    <li><div>
+    Kiểm tra xem trang wikipedia có hỗ trợ giao thức HTTP hay không, bằng cách nhập vào URL sau: <a href ="http://en.wikipedia.org:80/wiki/Main_Page">http://en.wikipedia.org:80/wiki/Main_Page</a>
+      </div>
+    <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/fd4c3aab-6ed9-4675-bc30-71fc908ec4ce.image.png?v=1667629924118"
+         alt="Bài tập 4" width="500" heigh="500">
+    </li>
+    <li><div>
+      Vào trang Tiki.vn, sử dụng trang web, quan sát và ghi lại giá trị của chuỗi truy vấn “query_string”. Ví dụ: <a href="https://tiki.vn/search?q=loa%20m%C3%A1y%20t%C3%ADnh">https://tiki.vn/search?q=loa%20m%C3%A1y%20t%C3%ADnh</a>
+      </div>
+    <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/fe079822-b640-460c-86bf-52f9ddb29e81.image.png?v=1667630514869"
+         alt="Bài tập 4" width="500" heigh="500">
+    </li>
+  </ul>
+ <h1>
+   Quan sát URL trên máy cục bộ
+  </h1>
+  <ul>
+    <li>Trên máy cục bộ, sử dụng phầm mềm Notepad tạo một tập tin HTML có nội dung bất kỳ, ví dụ: D:\index.html với nội dung là dòng chữ “Xin chao”.</li>
+  <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/57907960-adc7-4395-8465-239070cd9e54.image.png?v=1667630776490"
+       alt="Bài tập 4.2" width="500" heigh="500">
+    <li>Bấm đúp vào tập tin index.html để mở tập tin bằng trình duyệt, sẽ thấy dòng chữ “Xin chao” xuất hiện trên màn hình.
+     <img src="https://cdn.glitch.global/7b1aa8de-b515-4075-9094-301d9e504c82/f87bb4e7-5b98-4eba-b09c-7a24e23128a7.image.png?v=1667630941718"
+       alt="Bài tập 4.2" width="500" heigh="500"></li>
+  </ul>
+  </body>
+
+</html>
