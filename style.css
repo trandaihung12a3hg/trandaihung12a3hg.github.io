@@ -5,7 +5,7 @@
     text-align: center;
   }
   #menu li {
-    color: #f1f1f1;
+    color: #268cdb;
     display: inline-block;
     width: 120px;
     height: 40px;
@@ -14,7 +14,7 @@
   }
   #menu a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(19, 187, 228);
     display: block;
   }
   #menu a:hover {
