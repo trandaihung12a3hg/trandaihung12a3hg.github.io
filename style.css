@@ -41,15 +41,5 @@
     display: none !important;
   }
   .avatar img {
-    width: 200px;
-    margin-bottom: -256px;
-    border: 10px solid #fff;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    transition: all ease 0.5s;
+   font-size: 16px;
   }
-    
