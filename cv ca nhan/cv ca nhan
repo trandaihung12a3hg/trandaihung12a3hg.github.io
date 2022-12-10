@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV NGO HOANG ANH TUAN</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- GlideJs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+
+    <!-- App Css -->
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/textwriter.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- NAV -->
+    <div class="nav-wrapper" id="nav-change">
+        <div class="container-fluid">
+            <div class="nav" id="nav-text">
+                <a href="#" class="logo">
+                    <img src="./images/logo.png" alt="CV-NHAT">
+                </a>
+                <ul class="nav-menu menu-main">
+                    <li><a href="#">About</a></li>
+                    <li><a href="./resume.html">Resume</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav-menu">
+                    <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+        <div class="row">
+            <div class="col-4">
+                <div class="avt">
+                    <img src="./images/avt.jpg" alt="">
+                    <h2>Ngo Hoang Anh Tuan <i class="fa fa-check-circle" style="color: #118ff9;" title="Verified Author"></i></h2>
+                    <h3>Developer</h3>
+                </div>
+                <div class="info">
+                    <h5><i class='bx bx-calendar'></i> xx - xx - xxxx</h5>
+                    <h5><i class='bx bx-phone'></i> xxxxxxxxxx</h5>
+                    <h5><i class='bx bx-mail-send'></i>xxxxxxxx@gmail.com</h5>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="text-intro">
+                    <p>I'm Tuan (Color), with the dream of becoming a professional Developer & Designer, I like to explore, explore and learn interesting things on the Internet. Know a little bit about HTML, CSS, JS, PTS, ... Currently, I have completed
+                        the program of Information Technology (K1), BTEC International College FPT Danang. Outside of school, I also design a blog / website according to everyone's needs to earn more income and improve capacity ...</p>
+                </div>
+            </div>
+        </div>
+        <div class="study ">
+            <div class="col-12 ">
+                <div class="wrapper">
+                    <div class="title ">
+                        <span class="title ">
+                        What I'm doing...
+                    </span>
+                    </div>
+                    <div class="box ">
+                        <div class="doing">
+                            <div class="doing-img">
+                                <img src="./images/designer.png" alt="">
+                            </div>
+                            <div class="doing-text">
+                                <h4> Web Design</h4>
+                                <p>The most modern and high-quality design made at a professional level.</p>
+                            </div>
+                        </div>
+                        <div class="doing">
+                            <div class="doing-img">
+                                <img class="circle" src="./images/web-programming.png" alt="">
+                            </div>
+                            <div class="doing-text">
+                                <h4> Web Development</h4>
+                                <p>High-quality development of sites at the professional level.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box ">
+                        <div class="doing">
+                            <div class="doing-img">
+                                <img src="./images/cellphone.png" alt="">
+                            </div>
+                            <div class="doing-text">
+                                <h4> Mobile Apps</h4>
+                                <p>Professional development of applications for iOS and Android.</p>
+                            </div>
+                        </div>
+                        <div class="doing">
+                            <div class="doing-img">
+                                <img src="./images/camera.png" alt="">
+                            </div>
+                            <div class="doing-text">
+                                <h4>Photography</h4>
+                                <p>I make high-quality photos of any category at a professional level.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">Copyright © <a href="https://ngohoanganhtuan.com/">NGO HOANG ANH TUAN </a><i class="fa fa-check-circle" style="color: #118ff9;" title="Verified Author"></i></footer>
+
+    </div>
+</body>
+
+</html>
